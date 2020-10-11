@@ -7,8 +7,8 @@ public class RESTFortuneService implements FortuneService {
 
 	@Override
 	public String getDailyFortune() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return "You'll be victor in the LudoGame";
 	}
 
 }
