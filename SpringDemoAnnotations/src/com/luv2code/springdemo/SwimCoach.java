@@ -52,6 +52,16 @@ public class SwimCoach implements Coach {
 	public int getAge() {
 		return age;
 	}
+	
+	
+	//Use Constructor to Inject Literal Value with Value Annotation 
+	 @Autowired
+		public SwimCoach(@Value("mkr@gmail.com")String email, @Value("ChennaiSuperKings")String team, @Value("25")int age) {
+			this.email = email;
+			this.team = team;
+			this.age = age;
+		}
+	
 
 
 }
